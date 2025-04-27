@@ -14,7 +14,7 @@ struct NoItemsView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("There are no items!")
+                Text("There are no items!!")
                     .font(.title)
                     .fontWeight(.semibold)
                 Text("Are you a prodactive person? I think you should click the add button and add a bunch of items to your todo list!")
